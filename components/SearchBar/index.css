@@ -1,0 +1,25 @@
+.search-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.search-wrapper input {
+  border: transparent;
+  padding: 10px 15px;
+  width: 300px;
+  border-radius: 7px;
+  outline: none;
+  box-shadow: 0 0 5px lightgray;
+}
+.searchBar {
+  position: relative;
+}
+button {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 90%;
+  font-size: 30px;
+}
