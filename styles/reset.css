@@ -8,3 +8,7 @@ button {
   border: transparent;
   cursor: pointer;
 }
+a {
+  text-decoration: none;
+  color: var(--black);
+}

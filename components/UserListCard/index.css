@@ -1,0 +1,35 @@
+.user-list-card {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 50px;
+  box-shadow: 0 0 10px var(--red);
+  padding: 5px;
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+.user-list-card .image-wrapper {
+  height: 100%;
+}
+.user-list-card .image-wrapper img {
+  height: 100%;
+  border-radius: 50%;
+}
+.user-list-card .username {
+  color: var(--blue);
+}
+.user-list-card .arrow {
+  margin-left: auto;
+  color: var(--blue);
+}
+.user-list-card .best-match {
+  margin: 0 auto;
+  color: var(--red);
+}
+.user-list-card .best-match .crown {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

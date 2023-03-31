@@ -1,0 +1,102 @@
+.profil-card {
+  width: 350px;
+  height: 500px;
+  margin: 40px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  gap: 20px;
+  box-shadow: 0 0 10px var(--red);
+  border-radius: 10px;
+}
+.profil-card .image-wrapper {
+  height: 30%;
+}
+.profil-card .image-wrapper img {
+  height: 100%;
+  border-radius: 50%;
+  box-shadow: 0 0 10px var(--red);
+}
+
+.profil-card .profil-link {
+  box-shadow: 0 0 10px var(--red);
+  width: 70%;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  color: var(--blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.profil-card .profil-link:hover {
+  outline: 1px solid var(--red);
+}
+.profil-card .profil-name {
+  box-shadow: 0 0 10px var(--red);
+  width: 70%;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  color: var(--blue);
+}
+.profil-card .profil-bio {
+  box-shadow: 0 0 10px var(--red);
+  width: 70%;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  color: var(--blue);
+}
+.profil-card .info {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  gap: 20px;
+  color: var(--blue);
+}
+.profil-card .info .follow {
+  width: 100%;
+  justify-content: space-between;
+
+  text-align: center;
+  display: flex;
+}
+.profil-card .info .follow .followers {
+  box-shadow: 0 0 10px var(--red);
+  width: 45%;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 15px;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+.profil-card .info .follow .following {
+  box-shadow: 0 0 10px var(--red);
+  width: 45%;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 15px;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+.profil-card .info .repo {
+  box-shadow: 0 0 10px var(--red);
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.profil-card .info .repo span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

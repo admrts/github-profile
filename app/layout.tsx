@@ -2,6 +2,7 @@ import "../styles/reset.css";
 import "../styles/index.css";
 import "../styles/theme.css";
 import { Header } from "@/components";
+import { Providers } from "./provider";
 export default function RootLayout({
   children,
 }: {
@@ -9,13 +10,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <title>Github Profile</title>
-      </head>
-      <body>
-        <Header />
-        {children}
-      </body>
+      <Providers>
+        <head>
+          <title>Github Profile</title>
+        </head>
+        <body>
+          <Header />
+
+          <main> {children}</main>
+        </body>
+      </Providers>
     </html>
   );
 }

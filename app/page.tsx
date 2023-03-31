@@ -1,9 +1,10 @@
-import { SearchBar } from "@/components";
+import { SearchBar, UserList } from "@/components";
 
 export default function Home() {
   return (
-    <main>
+    <div>
       <SearchBar />
-    </main>
+      <UserList />
+    </div>
   );
 }

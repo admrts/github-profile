@@ -10,7 +10,9 @@
   width: 300px;
   border-radius: 7px;
   outline: none;
-  box-shadow: 0 0 5px lightgray;
+  box-shadow: 0 0 10px var(--red);
+  background-color: var(--black);
+  color: var(--blue);
 }
 .searchBar {
   position: relative;
@@ -22,4 +24,5 @@ button {
   transform: translateY(-50%);
   height: 90%;
   font-size: 30px;
+  color: var(--blue);
 }
