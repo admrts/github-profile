@@ -4,6 +4,7 @@ import "./index.css";
 import { UserType } from "@/types/UsersType";
 import { RiGitRepositoryLine } from "react-icons/ri";
 import { FiExternalLink } from "react-icons/fi";
+import Image from "next/image";
 
 const ProfileCard: FC<UserType> = ({
   avatar_url,
@@ -18,7 +19,15 @@ const ProfileCard: FC<UserType> = ({
   return (
     <div className="profil-card">
       <div className="image-wrapper">
-        <img src={avatar_url} alt="" />
+        <Image
+          className="img"
+          src={avatar_url}
+          alt={name}
+          width={100}
+          height={100}
+          priority
+        />
+        {/* <img src={avatar_url} alt="" /> */}
       </div>
       <a href={html_url} className="profil-link" target="_blank">
         <span> @{login}</span>

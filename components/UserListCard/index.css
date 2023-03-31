@@ -13,8 +13,9 @@
 .user-list-card .image-wrapper {
   height: 100%;
 }
-.user-list-card .image-wrapper img {
+.user-list-card .image-wrapper .img {
   height: 100%;
+  width: 100%;
   border-radius: 50%;
 }
 .user-list-card .username {

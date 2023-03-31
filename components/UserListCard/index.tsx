@@ -6,6 +6,7 @@ import { FaCrown } from "react-icons/fa";
 import { fetchUser } from "@/redux/userSlice";
 import { store } from "@/redux/store";
 import Link from "next/link";
+import Image from "next/image";
 
 const UserCard: FC<UsersType> = ({ avatar_url, id, url, login }: UsersType) => {
   const handleClick = async () => {
@@ -14,7 +15,15 @@ const UserCard: FC<UsersType> = ({ avatar_url, id, url, login }: UsersType) => {
   return (
     <Link href="/user" className="user-list-card" onClick={handleClick}>
       <div className="image-wrapper">
-        <img src={avatar_url} alt="" />
+        <Image
+          className="img"
+          src={avatar_url}
+          alt={login}
+          width={100}
+          height={100}
+          priority
+        />
+        {/* <img src={avatar_url} alt="" /> */}
       </div>
       <p className="username">@{login}</p>
       <div className="best-match">
