@@ -9,7 +9,7 @@
   padding: 10px 15px;
   width: 300px;
   border-radius: 7px;
-  outline: none;
+  outline: transparent;
   box-shadow: 0 0 10px var(--red);
   background-color: var(--black);
   color: var(--blue);
