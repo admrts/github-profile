@@ -19,7 +19,8 @@ const ProfileCard: FC<MyProps> = ({ userName }: MyProps) => {
 
   useEffect(() => {
     store.dispatch(fetchUser(userName));
-  }, []);
+    console.log("123");
+  }, [userName]);
 
   return (
     <>
