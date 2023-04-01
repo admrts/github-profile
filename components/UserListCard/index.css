@@ -12,6 +12,7 @@
 }
 .user-list-card .image-wrapper {
   height: 100%;
+  width: 100%;
 }
 .user-list-card .image-wrapper .img {
   height: 100%;
