@@ -5,11 +5,11 @@
   margin-top: 20px;
 }
 .search-wrapper input {
-  border: transparent;
+  border: 1px solid var(--red);
   padding: 10px 15px;
+  outline: transparent;
   width: 300px;
   border-radius: 7px;
-  outline: transparent;
   background-color: var(--black);
   color: var(--blue);
   box-shadow: 0 0 10px var(--red);
