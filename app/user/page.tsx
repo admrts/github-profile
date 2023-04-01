@@ -8,7 +8,7 @@ import { useSelector } from "react-redux";
 const User: FC = () => {
   const { user, isLoading } = useSelector((state: RootState) => state.user);
 
-  console.log(user);
+  console.log("userpage");
 
   return (
     <div>
