@@ -6,7 +6,7 @@ export const searchUser = async (userName: string) => {
   return response.data.items;
 };
 
-export const fetchUserData = async (url: string) => {
-  const response = await axios(url);
+export const fetchUserData = async (userName: string) => {
+  const response = await axios(`${BASE_URL}/users/${userName}`);
   return response.data;
 };

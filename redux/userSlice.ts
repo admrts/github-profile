@@ -4,8 +4,8 @@ import { fetchUserData } from "@/Network/API";
 
 export const fetchUser = createAsyncThunk(
   "user/fetchUser",
-  async (url: string) => {
-    const data = await fetchUserData(url);
+  async (userName: string) => {
+    const data = await fetchUserData(userName);
     return data;
   }
 );
@@ -30,19 +30,15 @@ export const { reducer, actions } = createSlice({
     builder.addCase(fetchUser.pending, (state) => {
       state.isLoading = true;
       state.user = undefined;
-      console.log("pending");
     });
     builder.addCase(fetchUser.fulfilled, (state, action) => {
       state.user = action.payload;
-      console.log(action.payload);
 
       state.isLoading = false;
-      console.log("fullfilled");
     });
     builder.addCase(fetchUser.rejected, (state, action) => {
       state.error = action.error.message;
       state.isLoading = false;
-      console.log("error");
     });
   },
 });
