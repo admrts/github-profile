@@ -7,16 +7,14 @@
   box-shadow: 0 0 10px var(--red);
   padding: 5px;
   border-radius: 5px;
-
   cursor: pointer;
 }
 .user-list-card .image-wrapper {
   height: 100%;
-  width: 100%;
 }
 .user-list-card .image-wrapper .img {
   height: 100%;
-  width: 100%;
+  width: auto;
   border-radius: 50%;
 }
 .user-list-card .username {
