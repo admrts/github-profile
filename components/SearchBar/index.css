@@ -10,9 +10,9 @@
   width: 300px;
   border-radius: 7px;
   outline: transparent;
-  box-shadow: 0 0 10px var(--red);
   background-color: var(--black);
   color: var(--blue);
+  box-shadow: 0 0 10px var(--red);
 }
 .searchBar {
   position: relative;
