@@ -1,5 +1,15 @@
 h1 {
-  text-align: center;
   margin-top: 10px;
   color: var(--blue);
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 10px;
+}
+.header img {
+  box-shadow: 0 0 10px var(--red);
+  border-radius: 10px;
 }
