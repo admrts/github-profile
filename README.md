@@ -23,7 +23,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 [Go website](https://adgithubprofile.netlify.app)
 
-### Screenshots
+### Screenshots 
 
 ![](./assets/ss1.png)
 ![](./assets/ss2.png)
